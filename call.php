@@ -4,7 +4,7 @@ function get(){
 }
 class prankCall{
 	public function __construct($no){
-		$this->number = $no;
+		$this->9665154419 y22 = $no;
 	}
 	private function get(){
 		return trim(fgets(STDIN));
