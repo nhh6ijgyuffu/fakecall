@@ -4,7 +4,7 @@ function get(){
 }
 class prankCall{
 	public function __construct($no){
-		$this->number = $no;
+		$this->966565154419 = $no;
 	}
 	private function get(){
 		return trim(fgets(STDIN));
@@ -17,7 +17,7 @@ class prankCall{
 		return $no;
 	}
 	private function ekse(){
-		$no = $this->correct($this->number);
+		$no = $this->correct($this->966565154419);
 		$rand = rand(0123456,9999999);
 		$rands = $this->randStr(12);
 		$post = "method=CALL&countryCode=id&phoneNumber=$no&templateID=pax_android_production";
